@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T05:16:00.407Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="2KQxn3kNjXavDIukGiNn" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-05T05:56:24.468Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="THqAUGnJ07wgCGJ6fhVi" version="22.1.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1500" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -44,7 +44,7 @@
           <mxGeometry y="294" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QHLnaAk54jUI6bsKHcxq-27" value="mentorRecord" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="540" y="40" width="160" height="268" as="geometry" />
+          <mxGeometry x="540" y="40" width="160" height="294" as="geometry" />
         </mxCell>
         <mxCell id="QHLnaAk54jUI6bsKHcxq-28" value="+ mentorId: uint (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QHLnaAk54jUI6bsKHcxq-27">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -70,14 +70,17 @@
         <mxCell id="QHLnaAk54jUI6bsKHcxq-34" value="+ logout()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QHLnaAk54jUI6bsKHcxq-27">
           <mxGeometry y="190" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QHLnaAk54jUI6bsKHcxq-50" value="+ requestSchedUpdate()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QHLnaAk54jUI6bsKHcxq-27">
+        <mxCell id="QHLnaAk54jUI6bsKHcxq-120" value="+ acceptMentor()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QHLnaAk54jUI6bsKHcxq-27">
           <mxGeometry y="216" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QHLnaAk54jUI6bsKHcxq-46" value="+ acceptAppointment()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QHLnaAk54jUI6bsKHcxq-27">
+        <mxCell id="QHLnaAk54jUI6bsKHcxq-50" value="+ requestSchedUpdate()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QHLnaAk54jUI6bsKHcxq-27">
           <mxGeometry y="242" width="160" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="QHLnaAk54jUI6bsKHcxq-46" value="+ acceptAppointment()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QHLnaAk54jUI6bsKHcxq-27">
+          <mxGeometry y="268" width="160" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="QHLnaAk54jUI6bsKHcxq-35" value="employeeRecord" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="370" y="810" width="190" height="250" as="geometry" />
+          <mxGeometry x="370" y="810" width="190" height="284" as="geometry" />
         </mxCell>
         <mxCell id="QHLnaAk54jUI6bsKHcxq-36" value="+ userId: string (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QHLnaAk54jUI6bsKHcxq-35">
           <mxGeometry y="26" width="190" height="26" as="geometry" />
@@ -103,8 +106,11 @@
         <mxCell id="QHLnaAk54jUI6bsKHcxq-53" value="+ assignStudentToMentor()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QHLnaAk54jUI6bsKHcxq-35">
           <mxGeometry y="190" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QHLnaAk54jUI6bsKHcxq-52" value="+ recommendStudentToMentor()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QHLnaAk54jUI6bsKHcxq-35">
+        <mxCell id="QHLnaAk54jUI6bsKHcxq-121" value="+ assignMentor()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QHLnaAk54jUI6bsKHcxq-35">
           <mxGeometry y="216" width="190" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="QHLnaAk54jUI6bsKHcxq-52" value="+ recommendStudentToMentor()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QHLnaAk54jUI6bsKHcxq-35">
+          <mxGeometry y="250" width="190" height="34" as="geometry" />
         </mxCell>
         <mxCell id="QHLnaAk54jUI6bsKHcxq-54" value="Appointment" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="370" y="510" width="190" height="216" as="geometry" />
@@ -252,7 +258,7 @@
         <mxCell id="QHLnaAk54jUI6bsKHcxq-109" value="+ chatId: uint (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QHLnaAk54jUI6bsKHcxq-108">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QHLnaAk54jUI6bsKHcxq-115" value="- studentId: uint(FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QHLnaAk54jUI6bsKHcxq-108">
+        <mxCell id="QHLnaAk54jUI6bsKHcxq-115" value="-appointmentId: uint (FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QHLnaAk54jUI6bsKHcxq-108">
           <mxGeometry y="52" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QHLnaAk54jUI6bsKHcxq-116" value="- mentorId: uint(FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QHLnaAk54jUI6bsKHcxq-108">
